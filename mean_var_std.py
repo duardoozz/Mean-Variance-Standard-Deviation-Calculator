@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate(list):
     if len(list) != 9:
-        raise ValueError("A lista deve conter nove números")
+        raise ValueError("List must contain nine numbers.")
     
     #converte a lista em matrix 3x3
     matrix = np.array(list).reshape(3, 3)
